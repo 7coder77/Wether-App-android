@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "my-new-project",
-    "slug": "my-new-project",
+    "name": "7-Weather",
+    "slug": "your-app-slug",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,10 +17,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.example.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e0c973ab-76c9-4ef4-9e82-08bbec830c2a"
+      }
     }
   }
 }
